@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.137 s <<< FAILURE! - in TestSuite
+hw1.arithmetic.MultOperationTest.multDoubleValuesTest[1.23, 3.45](2)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected [4.2435] but found [4.0]
+	at hw1.arithmetic.MultOperationTest.multDoubleValuesTest(MultOperationTest.java:25)
+
+hw1.arithmetic.DivOperationTest.divByZeroForDoubleValuesTest  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Expected Throwable to be thrown, but nothing was thrown
+	at hw1.arithmetic.DivOperationTest.divByZeroForDoubleValuesTest(DivOperationTest.java:19)
+

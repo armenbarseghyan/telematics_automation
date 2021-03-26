@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.137" tests="14" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\desktop\lab_1_automat\target\test-classes;D:\desktop\lab_1_automat\target\classes;D:\desktop\lab_1_automat\src\test\resources\libs\calculator-1.0.jar;C:\Users\Lenovo Y500\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Lenovo Y500\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Lenovo Y500\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo Y500\AppData\Local\Temp\surefire573653154730607751\surefirebooter7503342058214975559.jar C:\Users\Lenovo Y500\AppData\Local\Temp\surefire573653154730607751 2021-03-26T12-55-50_633-jvmRun1 surefire15888147707381657514tmp surefire_012337457192228677301tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\desktop\lab_1_automat\target\test-classes;D:\desktop\lab_1_automat\target\classes;D:\desktop\lab_1_automat\src\test\resources\libs\calculator-1.0.jar;C:\Users\Lenovo Y500\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Lenovo Y500\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Lenovo Y500\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo Y500"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Program Files (x86)\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\desktop\lab_1_automat"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo Y500\AppData\Local\Temp\surefire573653154730607751\surefirebooter7503342058214975559.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="Arm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Lenovo Y500\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="D:\desktop\lab_1_automat"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Visual Leak Detector\bin\Win32;C:\Program Files (x86)\Visual Leak Detector\bin\Win64;D:\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;D:\Git\cmd;C:\Program Files\Common Files\Autodesk Shared\;C:\Users\Lenovo Y500\AppData\Local\Microsoft\WindowsApps;D:\latex\miktex\bin\x64\;D:\IntelliJ IDEA Community Edition 2020.2.2\bin;;C:\Program Files (x86)\jdk-11\bin;C:\Program Files (x86)\apache-maven-3.6.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="sumDoubleValuesTest[1.9459492560311125E307, 7.752265408975291E307](1)" classname="hw1.arithmetic.SumOperationTest" time="0.007"/>
+  <testcase name="sumDoubleValuesTest[1.23, 3.45](2)" classname="hw1.arithmetic.SumOperationTest" time="0"/>
+  <testcase name="sumLongValuesTest[2688684525119194451, 3054150463328436142](1)" classname="hw1.arithmetic.SumOperationTest" time="0.001"/>
+  <testcase name="sumDoubleValuesTest[3.935083186914386E307, 8.70816547437295E307](1)" classname="hw1.arithmetic.SubOperationTest" time="0"/>
+  <testcase name="sumDoubleValuesTest[1.23, 3.45](2)" classname="hw1.arithmetic.SubOperationTest" time="0"/>
+  <testcase name="sumLongValuesTest[4093533715620385675, 1943954211575181171](1)" classname="hw1.arithmetic.SubOperationTest" time="0"/>
+  <testcase name="multDoubleValuesTest[0.3068961271053483, 1.7976931348623157E308](1)" classname="hw1.arithmetic.MultOperationTest" time="0.001"/>
+  <testcase name="multDoubleValuesTest[1.23, 3.45](2)" classname="hw1.arithmetic.MultOperationTest" time="0.006">
+    <failure message="expected [4.2435] but found [4.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [4.2435] but found [4.0]
+	at hw1.arithmetic.MultOperationTest.multDoubleValuesTest(MultOperationTest.java:25)
+]]></failure>
+  </testcase>
+  <testcase name="multLongValuesTest[5046503101286734565, 0](1)" classname="hw1.arithmetic.MultOperationTest" time="0"/>
+  <testcase name="divByZeroForDoubleValuesTest" classname="hw1.arithmetic.DivOperationTest" time="0.003">
+    <failure message="Expected Throwable to be thrown, but nothing was thrown" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected Throwable to be thrown, but nothing was thrown
+	at hw1.arithmetic.DivOperationTest.divByZeroForDoubleValuesTest(DivOperationTest.java:19)
+]]></failure>
+  </testcase>
+  <testcase name="divByZeroForLongValuesTest" classname="hw1.arithmetic.DivOperationTest" time="0.001"/>
+  <testcase name="divDoubleValuesTest[0.9833089970561824, 5.275718289990047E307](1)" classname="hw1.arithmetic.DivOperationTest" time="0"/>
+  <testcase name="divDoubleValuesTest[1.23, 3.45](2)" classname="hw1.arithmetic.DivOperationTest" time="0"/>
+  <testcase name="divLongValuesTest[4532321499626064221, 8874282346471375585](1)" classname="hw1.arithmetic.DivOperationTest" time="0"/>
+</testsuite>
